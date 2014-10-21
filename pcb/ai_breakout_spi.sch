@@ -302,7 +302,7 @@ Keying posts into board</description>
 <pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-3.81" y="1.524" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-3.81" y="1.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
