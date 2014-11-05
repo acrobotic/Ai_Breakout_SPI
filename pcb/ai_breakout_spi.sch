@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -230,36 +230,17 @@ This library includes USB, pin headers and sockets in different configurations (
 <pad name="6" x="2.54" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="4" x="0" y="1.27" drill="1.016" diameter="1.8796"/>
 <pad name="2" x="-2.54" y="1.27" drill="1.016" diameter="1.8796"/>
-<wire x1="-3.175" y1="0" x2="-3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.175" y2="0" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="0" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.81" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.175" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="1.905" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="1.27" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="0.635" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="-0.635" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.27" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-3.175" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-3.81" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="0" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.2032" layer="21"/>
-<text x="-3.937" y="2.921" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<wire x1="3.81" y1="2.54" x2="-3.81" y2="2.54" width="0.2032" layer="22"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.2032" layer="22"/>
+<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-2.54" width="0.2032" layer="22"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.2032" layer="22"/>
+<text x="-3.937" y="2.921" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.2032" layer="21"/>
 <wire x1="-1.905" y1="-3.048" x2="-3.175" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-3.048" x2="-3.175" y2="-3.048" width="0.2032" layer="22"/>
 </package>
 <package name="2X3-SMT">
 <description>4UCON 15881&lt;br&gt;
@@ -291,7 +272,7 @@ Keying posts into board</description>
 <pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90" first="yes"/>
 <pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-3.81" y="1.524" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-3.81" y="1.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="22"/>
 <wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="22"/>
@@ -303,10 +284,35 @@ Keying posts into board</description>
 <pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-3.81" y="1.524" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.2032" layer="22"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="22"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.2032" layer="22"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="22"/>
 <wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
+</package>
+<package name="1X03-ST950">
+<wire x1="-14.6" y1="13.2" x2="-14.6" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="-14.6" y1="-4.4" x2="14.6" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="14.6" y1="-4.4" x2="14.6" y2="13.2" width="0.2032" layer="21"/>
+<wire x1="14.6" y1="13.2" x2="13.5" y2="13.2" width="0.2032" layer="21"/>
+<wire x1="13.5" y1="13.2" x2="4.5" y2="13.2" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="13.2" x2="-4.5" y2="13.2" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="13.2" x2="-13.5" y2="13.2" width="0.2032" layer="21"/>
+<wire x1="-13.5" y1="13.2" x2="-14.6" y2="13.2" width="0.2032" layer="21"/>
+<pad name="2" x="0" y="0" drill="1.7" diameter="2.8"/>
+<pad name="1" x="-9.5" y="0" drill="1.7" diameter="2.8" first="yes"/>
+<text x="-14.6" y="13.462" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<pad name="3" x="9.5" y="0" drill="1.7" diameter="2.8"/>
+<wire x1="-13.5" y1="-3.24" x2="-4.5" y2="-3.24" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-3.24" x2="4.5" y2="-3.24" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-3.24" x2="13.5" y2="-3.24" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="13.2" x2="-4.5" y2="-3.24" width="0.2032" layer="21"/>
+<wire x1="-13.5" y1="13.2" x2="-13.5" y2="-3.24" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="13.2" x2="4.5" y2="-3.24" width="0.2032" layer="21"/>
+<wire x1="13.5" y1="13.2" x2="13.5" y2="-3.24" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -393,6 +399,16 @@ Keying posts into board</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="ST950" package="1X03-ST950">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -409,7 +425,7 @@ Keying posts into board</description>
 <parts>
 <part name="FRAME1" library="Ai_Miscellany" deviceset="FRAME-LETTER" device="">
 <attribute name="AUTHOR" value="A.I. HARDWARE SITH LORDS"/>
-<attribute name="REV" value="1.0"/>
+<attribute name="REV" value="1.1"/>
 </part>
 <part name="J1" library="Ai_Connectors" deviceset="2X03" device=""/>
 <part name="J3" library="Ai_Connectors" deviceset="1X03" device="NOFIRST"/>
