@@ -321,7 +321,7 @@ Keying posts into board</description>
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
-<text x="-5.08" y="5.715" size="1.524" layer="95" font="vector" ratio="15">&gt;NAME</text>
+<text x="-5.08" y="5.715" size="1.524" layer="95" font="vector" ratio="10">&gt;NAME</text>
 <pin name="1" x="7.62" y="-2.54" visible="pin" length="short" rot="R180"/>
 <pin name="3" x="7.62" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="5" x="7.62" y="2.54" visible="pin" length="short" rot="R180"/>
@@ -334,7 +334,7 @@ Keying posts into board</description>
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.4064" layer="94"/>
-<text x="-2.54" y="5.715" size="1.524" layer="95" font="vector" ratio="15">&gt;NAME</text>
+<text x="-2.54" y="5.715" size="1.524" layer="95" font="vector" ratio="10">&gt;NAME</text>
 <pin name="1" x="5.08" y="-2.54" visible="pin" length="short" rot="R180"/>
 <pin name="2" x="5.08" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="3" x="5.08" y="2.54" visible="pin" length="short" rot="R180"/>
